@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www"
   },
   "author": "Vadim Z.",
   "license": "ISC",
@@ -13,7 +13,6 @@
     "body-parser": "1.18.2",
     "express": "4.16.3",
     "jsonwebtoken": "8.2.0",
-    "mongoose-auto-increment": "5.0.1",
     "sequelize": "4.37.4",
     "sqlite3": "4.0.0"
   },
